@@ -19,15 +19,17 @@ This platform is designed to be modular, scalable, and ready for deployment in r
 ```
 property_listing_platform/
 ├── app/
-│   ├── main.py             # Application entry point
-│   ├── config/             # Configuration files
-│   ├── models/             # Database models and Pydantic schemas
-│   ├── routers/            # API route handlers
-│   ├── services/           # Core business logic
-│   ├── utils/              # Utility functions
-|   ├── tests/              # Unit tests for APIs
-├── requirements.txt        # Project dependencies
-├── README.md               # Project documentation
+│   ├── main.py               # Application entry point
+│   ├── config/               # Configuration files
+│   ├── models/               # Database models and Pydantic schemas
+│   ├── routers/              # API route handlers
+│   ├── services/             # Core business logic
+│   ├── utils/                # Utility functions
+|   ├── tests/                # Unit tests for APIs
+|   ├── API_Documentation.md  # API endpoints and usecases
+|   ├── Design_Document.md    # Design and implementatin strategy 
+├── requirements.txt          # Project dependencies
+├── README.md                 # Project documentation
 ```
 
 ---
