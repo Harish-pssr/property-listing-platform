@@ -56,7 +56,8 @@ pip install -r requirements.txt
 
 ### **4. Run the Application**
 ```bash
-uvicorn app.main:app --reload
+cd app
+uvicorn main:app --reload
 ```
 
 ---
